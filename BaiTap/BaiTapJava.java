@@ -4,7 +4,7 @@ import java.util.Scanner;
 // Khai bao mang
 public class BaiTapJava {
 
-    private static int nguyenTo(int n){
+    public static int nguyenTo(int n){
         int dem=0;
         for(int j=1;j<=n;j++){
             if(n%j==0)
